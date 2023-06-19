@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ListBox x:Name="lbrastgelesayılar" Width="100" Height="250" Margin="113,37,304,32"/>
+        <Button x:Name="btnbaşlat" Content="oyunu başlat" HorizontalAlignment="Left" Margin="289,50,0,0" VerticalAlignment="Top" Width="75" Click="btnbaşlat_Click"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="278,98,0,0" TextWrapping="Wrap" Text="RASTGELE SAYI" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock x:Name="tbkrastgelesayı" HorizontalAlignment="Left" Margin="310,119,0,0" TextWrapping="Wrap" Text="XX" VerticalAlignment="Top" RenderTransformOrigin="0.373,1.315" FontWeight="Bold"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="310,154,0,0" TextWrapping="Wrap" Text="HAK" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock x:Name="tbhak" HorizontalAlignment="Left" Margin="319,175,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" RenderTransformOrigin="0.373,1.315" FontWeight="Bold"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="289,218,0,0" TextWrapping="Wrap" Text="TAHMİN ET" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="tbtahmin" HorizontalAlignment="Left" Height="34" Margin="289,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="65"/>
+        <Button x:Name="btntahminet" Content="tahmin et" HorizontalAlignment="Left" Margin="289,267,0,0" VerticalAlignment="Top" Width="75" Click="btntahminet_Click" IsEnabled="False"/>
+
+    </Grid>
+</Window>
